@@ -24,10 +24,10 @@ As with any investment, risks exist. **Risks** to this investment approach inclu
 #### Data
 
 I used freely available data from the City of Edmonton’s open data portal, joining the following datasets on geographic point location (for building permit, property info, and property assessment data) and account number (only used to join historic property assessment data to current calendar year property assessment data):
-[General_Building_Permits.csv](https://data.edmonton.ca/Urban-Planning-Economy/General-Building-Permits/24uj-dj8v)
-[Property_Assessment_Data__Current_Calendar_Year.csv](https://data.edmonton.ca/City-Administration/Property-Assessment-Data-Current-Calendar-Year-/q7d6-ambg)
-[Property_Information__Current_Calendar_Year.csv](https://data.edmonton.ca/City-Administration/Property-Information-Current-Calendar-Year-/dkk9-cj3x)
-[Property_Assessment_Data__Historical.csv](https://data.edmonton.ca/City-Administration/Property-Assessment-Data-Historical-/qi6a-xuwt)
+* [General_Building_Permits.csv](https://data.edmonton.ca/Urban-Planning-Economy/General-Building-Permits/24uj-dj8v)
+* [Property_Assessment_Data__Current_Calendar_Year.csv](https://data.edmonton.ca/City-Administration/Property-Assessment-Data-Current-Calendar-Year-/q7d6-ambg)
+* [Property_Information__Current_Calendar_Year.csv](https://data.edmonton.ca/City-Administration/Property-Information-Current-Calendar-Year-/dkk9-cj3x)
+* [Property_Assessment_Data__Historical.csv](https://data.edmonton.ca/City-Administration/Property-Assessment-Data-Historical-/qi6a-xuwt)
 
 An individual sample unit for this project is either: 
 1. A building project permit, its descriptive details and information from joined datasets. 
@@ -41,7 +41,7 @@ I used Microsoft Excel and Google Sheets to view, manage and clean the data. I u
 #### Algorithms
 
 In addition to carefully filtering and visualizing data, many of the valuable results came from extracting information from a field in the Building Permits dataset called "Job Description". This field is a long-form description written in plain language, which makes it difficult to sort, filter, categorize etc. After studying the Job Description field to determine descriptive keywords and formatting, I created a number of calculated fields to extract key words into new Boolean fields for each project type. The following is an example of such a calculated field, used to identify Bedroom Additions. 
-![Calculated Field Example](/Users/vesper/Documents/Metis/Module_3_Business_Fundamentals/Edmonton_Business_Project/Calculated_Field_Example.png "Creating a Calculated Field for a Boolean Category, which will be used to visualize and analyze Bedroom Addition projects in Edmonton")
+![Calculated Field Example](/Users/vesper/Documents/Metis/Module_3_Business_Fundamentals/Edmonton_Business_Project/Calculated_Field_Example.png)
 
 #### Future Work 
 Plans for future include using spatial analysis features in Tableau to calculate an average property value within a radius of each point, then visualizing properties that are assessed at 70% or less of that average (which would be valuable for finding properties within the short term property investor's [70% Rule](https://www.rocketmortgage.com/learn/what-is-70-rule-in-house-flipping#:~:text=The%2070%25%20rule%20helps%20home,costs%20of%20renovating%20the%20property.)). I also plan to fine tune visualizations for maximum readability and utility. 
