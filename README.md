@@ -44,7 +44,7 @@ In addition to carefully filtering and visualizing data, many of the valuable re
 ![Calculated Field Example](Calculated_Field_Example.png)
 
 #### Future Work 
-Plans for future include using spatial analysis features in Tableau to calculate an average property value within a radius of each point, then visualizing properties that are assessed at 70% or less of that average (which would be valuable for finding properties within the short term property investor's [70% Rule](https://www.rocketmortgage.com/learn/what-is-70-rule-in-house-flipping#:~:text=The%2070%25%20rule%20helps%20home,costs%20of%20renovating%20the%20property.)). I also plan to fine tune visualizations for maximum readability and utility. 
+Plans for future work include using spatial analysis features in Tableau to calculate an average property value within a radius of each point, then visualizing properties that are assessed at 70% or less of that average (which would be valuable for finding properties within the short term property investor's [70% Rule](https://www.rocketmortgage.com/learn/what-is-70-rule-in-house-flipping#:~:text=The%2070%25%20rule%20helps%20home,costs%20of%20renovating%20the%20property.)). I also plan to fine tune visualizations for maximum readability and utility. 
 
 #### Communication
 
