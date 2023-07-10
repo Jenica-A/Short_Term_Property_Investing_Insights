@@ -20,7 +20,7 @@ A number of assumptions exist in this project. Some **assumptions** include:
 * Economic stability is a significant assumption. Investments rely on property values increasing over time. 
 * Another important assumption is that past behavior is predictive of future behavior—namely, the permit records will be indicative of property owner desires moving forward.
 
-As with any investment, risks exist. **Risks** to this investment approach include: by following market trends, a market could become saturated with a certain kind of property, such that a need for that kind of property decreases; in this case more diverse property types could fetch a higher profit. The risk of an economic downturn occurring exists, or the movement of a population away from a certain area and the devaluing of a property is possible. These are only some of the risks to this proposed approach to real estate investing. 
+As with any investment, risks exist. **Risks** to this investment approach include: by following market trends, a market could become saturated with a certain kind of property, such that a need for that kind of property decreases--in these cases more diverse property types could fetch a higher profit. The risk of an economic downturn exists, or the movement of a population away from a certain area and the devaluing of a property is possible. These are only some of the risks to this proposed approach to real estate investing. 
 
 
 #### Data
